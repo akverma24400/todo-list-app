@@ -1,5 +1,6 @@
 services:
   app:
+    image: akash24400/todo-list-app:latest
     build: .
     container_name: todo-app
     ports:
